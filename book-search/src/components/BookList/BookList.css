@@ -1,0 +1,7 @@
+.bookList-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 40px auto 0;
+}

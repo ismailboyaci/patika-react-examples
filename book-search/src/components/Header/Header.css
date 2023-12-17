@@ -1,0 +1,39 @@
+.header-container{
+    background: url('../../assets/bgheader.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+.header-title{
+    color: azure;
+    margin-bottom: 25px;
+}
+
+.header-input{
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.header-input:focus{
+    outline: none;
+}
+
+.header-button-container{
+    display: flex;
+}
+
+.header-button{
+    height: 100%;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
